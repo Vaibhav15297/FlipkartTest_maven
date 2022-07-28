@@ -28,9 +28,12 @@ public class VerifyUserCanLogin
        
 	static WebDriver driver; 
        LoginPage lp;
+       
        ExtentHtmlReporter extentReporter;
+       
    	   ExtentReports report;
     	ExtentTest test;
+    	
        
        @BeforeClass
        public void beforeClass() throws IOException
