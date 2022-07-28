@@ -26,8 +26,10 @@ public class VerifyUserCanNewAddress
 {
 	
 static WebDriver driver;
+
 HomePage hp;
 ProfilePage pp;
+//vaibhav
 ExtentHtmlReporter extentReporter;
 ExtentReports report;
 ExtentTest test;
